@@ -8,10 +8,11 @@
 </head>
 <body>
     <header>
-        <h1 id="title">Murtadha Fateel<br>Software Engineering Student</h1>
+        <h1 id="title">Murtadha Fateel</h1>
+        <p class="slogan">Software Engineering Student</p>
     
-        <nav class="nav">
-            <ul>
+        <nav>
+            <ul class="navlist">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -21,10 +22,10 @@
     </header>
 
     <main>
-        <section id="about">
-            <h1>About Me</h1>
+        <section id="about" class="card">
+            <h2>About Me</h2>
             <figure>
-                <img src="./assets/profile-photo.jpg" alt="profilepic">
+                <img id="profile-photo" src="./assets/profile-photo.jpg" alt="profilepic">
                 <figcaption>Murtadha Fateel</figcaption>
             </figure>
 
@@ -33,60 +34,59 @@
             </p>
         </section>
 
-        <section id="skills">
-            <h1>Skills</h1>
-            <nav class="navskills">
-                <ul>
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+                <ul id="skill-list">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>GitHub</li>
                     <li>Problem solving</li>
                     <li>Team communication</li>
                 </ul>
-            </nav>
+
         </section>
 
-        <section id="projects">
-            <h1>Projects <hr></h1>
-                <article class="project-1">
-                    <h2>Personal Portfolio Page</h2>
+        <section id="projects" class="card">
+            <h2>Projects <hr></h2>
+                <article id="project-1" class="proj-article">
+                    <h3>Personal Portfolio Page</h3>
                         <p>
                         A simple website that introduces who I am, what I am learning, and how to contact me.
                         </p>
                     <hr>
                 </article>
 
-                <article  class="project-2">
-                    <h2>Research Notes Page</h2>
+                <article  id="project-2" class="proj-article">
+                    <h3>Research Notes Page</h3>
                         <p>
                            A basic HTML page used to organize notes about web development concepts and useful documentation links 
                         </p>
                     <hr>
                 </article>
 
-                <article class="project-3">
-                    <h2>Business Landing Page</h2>
+                <article id="project-3" class="proj-article">
+                    <h3>Business Landing Page</h3>
                         <p>
                             A clean landing page for a small local business, using headings, sections, links, and CSS styling.
-                        </p>
+                        </p><hr>
                 </article>
         </section>
 
-        <section id="contact">
-            <h3>Contact</h2>
-            <h3>Email: </h3> 
-                <p><a href="mailto:murtadhafateel@gmail.com">murtadhafateel@gmail.com</a></p>
-            <h3>GitHub: </h3>
-                <p>
-                    https://github.com/MurtadhaFateel
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+                <p>Email: <a href="mailto:murtadhafateel@gmail.com">murtadhafateel@gmail.com</a>
                 </p>
-            <h3>Location: </h3>
-            <p>Bahrain</p>
+
+                <p>GitHub: https://github.com/MurtadhaFateel
+                </p>
+
+                <p>Location: Bahrain</p>
         </section>
     </main>
 
-    <footer id="footer">
+    <footer class="footer">
        <h5>© 2026 Murtadha Fateel</h5>
+       <a href="#top">Back to top</a>
     </footer>
 </body>
 </html>

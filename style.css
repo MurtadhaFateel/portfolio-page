@@ -1,3 +1,94 @@
 body {
-    background-color: lightblue;
+    background-color: rgba(16, 67, 126, 0.349);
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 87, 187, 0.365);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Each section */
+/* Needs more work */
+.navlist {
+    /* Make the ul nav bar navlist horizontal*/
+    display: flex;
+    list-style: none;
+    /*Spacing between the ul navigation bar*/
+    gap: 100px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: rgba(39, 50, 145, 0.432);
+    border: solid;
+    padding: 20px;
+    margin: 20px 50px;
+    
+}
+
+.slogan {
+    text-align: center;
+    color: rgb(28, 52, 137);
+}
+
+/* All headings level 1 - name on top */
+h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgba(28, 52, 137, 0.619);
+} 
+
+/* Sections names */
+h2 {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgba(28, 52, 137, 0.619); 
+}
+
+/* Project Article title */
+h3 {
+    font-size: large;
+    color: rgb(67, 66, 79);
+}
+
+/* All paragraphs */
+p {
+    color: black;
+    text-align: justify;
+}
+
+/*Removes underlines from links*/
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+/*Shows underlines when hovering over nav link */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+}
+
+/* Skills section list text */
+#skill-list {
+    color: black;
+}
+
+/* Project Article title */
+/* .proj-article {
+    color: rgb(67, 66, 79);
+} */
+#profile-photo {
+    border: solid rgba(28, 52, 137, 0.619);
+    width: 200px;
 }
