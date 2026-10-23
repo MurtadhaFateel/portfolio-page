@@ -14,12 +14,14 @@ header {
 
 /* Each section */
 /* Needs more work */
-.navlist {
+.nav-list {
     /* Make the ul nav bar navlist horizontal*/
     display: flex;
+    justify-content: center;
     list-style: none;
     /*Spacing between the ul navigation bar*/
-    gap: 100px;
+    gap: 60px;
+    padding: 0;
     margin: 0;
     font-weight: bolder;
 }
@@ -28,7 +30,7 @@ header {
     background-color: rgba(39, 50, 145, 0.432);
     border: solid;
     padding: 20px;
-    margin: 20px 50px;
+    margin: 20px 90px;
     
 }
 
@@ -69,6 +71,7 @@ a {
     text-decoration: none;
 }
 
+
 /*Shows underlines when hovering over nav link */
 a:hover {
     text-decoration: underline;
@@ -89,6 +92,6 @@ a:hover {
     color: rgb(67, 66, 79);
 } */
 #profile-photo {
-    border: solid rgba(28, 52, 137, 0.619);
+    border: 3px solid rgba(28, 52, 137, 0.619);
     width: 200px;
 }
