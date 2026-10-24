@@ -12,12 +12,13 @@ header {
     padding: 20px;
 }
 
-/* Each section */
-/* Needs more work */
+/*Navigation link foreach section*/
 .nav-list {
     /* Make the ul nav bar navlist horizontal*/
     display: flex;
-    justify-content: center;
+    /*Center the nav*/
+    justify-content: center; 
+    /* Removes bullet points*/
     list-style: none;
     /*Spacing between the ul navigation bar*/
     gap: 60px;
@@ -26,20 +27,21 @@ header {
     font-weight: bolder;
 }
 
+/*Main sections*/
 .card {
     background-color: rgba(39, 50, 145, 0.432);
     border: solid;
     padding: 20px;
     margin: 20px 90px;
-    
 }
 
+/* Text below main name at top */
 .slogan {
     text-align: center;
     color: rgb(28, 52, 137);
 }
 
-/* All headings level 1 - name on top */
+/* All headings level 1 - name on top as of now*/
 h1{
     font-weight: bolder;
     font-size: xx-large;
@@ -87,10 +89,7 @@ a:hover {
     color: black;
 }
 
-/* Project Article title */
-/* .proj-article {
-    color: rgb(67, 66, 79);
-} */
+/* Photo */
 #profile-photo {
     border: 3px solid rgba(28, 52, 137, 0.619);
     width: 200px;
